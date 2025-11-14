@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Header() {
     return (
         <div className="flex justify-between bg-amber-300">
@@ -16,9 +18,9 @@ export default function Header() {
                 width={30} height={30} alt="add" />
             </div>
             <div className="flex mt-4">
-                <a className="mr-2 ml-2" href="/">Overview</a>
-                <a className="mr-2 ml-2" href="#">Clients</a>
-                <a className="mr-2 ml-2" href="/overview">Inbox</a>
+                <a className="mr-2 ml-2" href="/overview">Overview</a>
+                <a className="mr-2 ml-2" href="/">Clients</a>
+                <a className="mr-2 ml-2" href="/inbox">Inbox</a>
                 <a className="mr-2 ml-2" href="#">Analytics</a>
             </div>
             <div className="flex items-center">
