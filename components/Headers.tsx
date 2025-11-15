@@ -1,6 +1,6 @@
 import { Infinity,Bell, Settings } from "lucide-react"
 
-export default function Header() {
+export default function Headers() {
     return (
         <div>
         <div className="flex justify-between bg-white py-4">
