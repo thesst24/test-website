@@ -1,4 +1,3 @@
-import Link from "next/link"
 import { Infinity,Bell, Settings } from "lucide-react"
 
 export default function Header() {
@@ -20,7 +19,7 @@ export default function Header() {
 
             <div className="flex mt-4 gap-1 mr-20">
                 <a className=" border-3 border-gray-200 py-2 px-5 hover:boder-3 hover:border-gray-400 font-medium text-xl rounded-3xl" href="/overview">Overview</a>
-                <a className=" border-3 border-gray-200 py-2 px-5 hover:boder-3 hover:border-gray-400 font-medium text-xl rounded-3xl" href="/">Clients</a>
+                <a className=" border-3 border-gray-200 py-2 px-5 hover:boder-3 hover:border-gray-400 font-medium text-xl rounded-3xl" href="#">Clients</a>
                 <a className=" border-3 border-gray-200 py-2 px-5 hover:boder-3 hover:border-gray-400 font-medium text-xl rounded-3xl" href="/inbox">Inbox</a>
                 <a className=" border-3 border-gray-200 py-2 px-5 hover:boder-3 hover:border-gray-400 font-medium text-xl rounded-3xl" href="#">Analytics</a>
             </div>

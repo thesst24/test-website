@@ -1,8 +1,16 @@
 import { ChevronDown,Download,Dot } from "lucide-react";
+import DotChart from "./Charts2";
+
+const marchData = [
+    40, 80, 110, 60, 90, 70, 130, 150, 120, 180,
+    200, 210, 160, 250, 280, 260, 140, 120, 150, 100,
+    80, 90, 170, 200, 220, 260, 180, 140, 110, 150, 130
+  ];
 
 export default function Chart() {
     return (
         <div className="border-2 border-gray-300 rounded-4xl p-5 mt-3">
+
             <div className="flex justify-between items-center  font-medium text-xl">
                 <p>Revenue Analytics</p>
                 <div className="flex gap-4">
@@ -17,6 +25,8 @@ export default function Chart() {
                 <Download />
                 </div>
             </div>
+
+            <div className="flex gap-10 mt-5">
 
             <div>
                 <div className="flex items-center"><Dot className="stroke-green-600 size-10" />
@@ -35,7 +45,12 @@ export default function Chart() {
                     </div>
                 </div>
 
-                <button className="px-20 py-3 text-white rounded-3xl bg-linear-to-t from-cyan-500 to-sky-700">Run Analysis</button>
+                <button className="px-20 py-3 text-white rounded-3xl bg-linear-to-t from-cyan-500 to-sky-700 cursor-pointer">Run Analysis</button>
+            </div>
+                                        
+                <div>
+                    <DotChart data={marchData}/>
+                </div>
             </div>
 
         </div>
