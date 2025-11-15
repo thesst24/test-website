@@ -48,12 +48,14 @@ export default function ChatBox(){
             </div> 
             <div>
              <div className="mt-6 flex items-center">
-                <div className="relative w-full flex items-center">
-                    <input type="text" className=" bg-gray-100 focus:outline-gray-200 rounded-4xl w-full pl-12 pr-3 py-4 flex items-center border-none text-xl" 
+                
+                <div className=" bg-gray-100 focus:outline-gray-200 rounded-4xl w-full px-3 flex items-center border-none text-xl">
+                    <Paperclip className=" left-5 flex items-center" />
+                    <input type="text" className="w-full bg-gray-100 focus:outline-0 rounded-4xl pl-8 pr-3 py-4 flex items-center border-none" 
                      id="ask" placeholder="Send message..." />
 
-                <Paperclip className="absolute left-5 flex items-center" />
-                <div className="absolute flex items-center left-300">
+                
+                <div className=" flex items-center left-300">
                     <Send className="mr-4"/>
                     <Tally1  />
                     <WandSparkles />
