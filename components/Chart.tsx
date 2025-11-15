@@ -9,7 +9,7 @@ const marchData = [
 
 export default function Chart() {
     return (
-        <div className="border-2 border-gray-300 rounded-4xl p-5 mt-3">
+        <div className="border-2 border-gray-300 rounded-4xl p-5 mt-3 overflow-x-scroll">
 
             <div className="flex justify-between items-center  font-medium text-xl">
                 <p>Revenue Analytics</p>
@@ -48,7 +48,7 @@ export default function Chart() {
                 <button className="px-20 py-3 text-white rounded-3xl bg-linear-to-t from-cyan-500 to-sky-700 cursor-pointer">Run Analysis</button>
             </div>
                                         
-                <div>
+                <div className="w-full">
                     <DotChart data={marchData}/>
                 </div>
             </div>

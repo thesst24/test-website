@@ -10,7 +10,7 @@ export default function DotChart({ data }: DotChartProps) {
   const maxDots = 12; // number of vertical dots (roughly matches screenshot)
 
   return (
-    <div className="relative w-full bg-white rounded-xl p-6">
+    <div className="relative bg-white rounded-xl p-6">
       {/* Horizontal grid lines */}
       <div className="absolute inset-0 flex flex-col justify-between pointer-events-none">
         {[300, 200, 100, 0].map((v) => (
