@@ -26,7 +26,7 @@ export default function Chart() {
                 </div>
             </div>
 
-            <div className="flex gap-10 mt-5">
+            <div className="flex gap-10 mt-5 w-full">
 
             <div>
                 <div className="flex items-center"><Dot className="stroke-green-600 size-10" />
