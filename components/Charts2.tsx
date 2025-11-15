@@ -47,8 +47,7 @@ export default function DotChart({ data }: DotChartProps) {
                   />
                 ))}
               </div>
-
-             
+           
             </div>
           );
         })}
