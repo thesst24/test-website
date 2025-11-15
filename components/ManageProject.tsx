@@ -46,7 +46,7 @@ const statusStyles: Record<string, string> ={
 
 export default function ManageProject() {
     return(
-        <div className="border-2 border-gray-500 rounded-4xl p-5 mx-10 my-3">
+        <div className="border-2 border-gray-300 rounded-4xl p-5 mt-3">
             <div className="flex justify-between"><h2 className="font-medium text-2xl mb-5">Manage Projects</h2>
             <Search className="mr-10"/></div>  
             <nav className="flex gap-4 w-full">
@@ -82,12 +82,12 @@ export default function ManageProject() {
 
                     <tbody>
                         {dataProject.map((user) => (
-                            <tr key={user.id} className="my-20">
+                            <tr key={user.id} className="h-20">
                                 {/* Client */}
                                 <td>
                                     <div className="flex items-center gap-3">
                                         <img src={user.avatar} alt={user.name}
-                                        className="rounded-full w-14 h-14 object-cover" />
+                                        className="rounded-full w-12 h-12 object-cover" />
                                         <div className="">
                                             <h3 className="font-medium text-[18px]">{user.name}</h3>
                                             <p>{user.clientName}</p>

@@ -2,8 +2,8 @@ import { ChevronDown,Download,Dot } from "lucide-react";
 
 export default function Chart() {
     return (
-        <div className="border-2 border-gray-500 rounded-4xl p-5 mx-10 my-3">
-            <div className="flex justify-between items-center  font-medium text-2xl">
+        <div className="border-2 border-gray-300 rounded-4xl p-5 mt-3">
+            <div className="flex justify-between items-center  font-medium text-xl">
                 <p>Revenue Analytics</p>
                 <div className="flex gap-4">
                 <div className="flex gap-2">

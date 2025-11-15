@@ -1,31 +1,31 @@
 export default function ViewRevenue(){
     return(
          <div>
-            <div className="flex mx-8 my-3">
-            <div className="flex flex-col justify-between items-center w-[33%] h-50 border-2 border-gray-200 p-5 rounded-2xl m-2 bg-white">
+            <div className="flex items-center gap-3">
+            <div className="flex flex-col justify-between items-center w-[33%] h-40 border-2 border-gray-300 p-5 rounded-2xl bg-white">
                 <div className="flex justify-between w-full">
-                    <p className="font-medium text-3xl">Clients</p>
+                    <p className="font-medium text-2xl">Clients</p>
                     <span className="border-green-400 text-green-700 border-2 px-3 py-1 rounded-2xl bg-green-200">+4</span></div>
                 <div className="flex justify-between w-full text-center items-center">
-                    <h5 className="font-bold text-5xl">14</h5>
+                    <h5 className="font-bold text-4xl">14</h5>
                 <p className="text-gray-500">Compare 10 (last month)</p></div> 
             </div>
 
-            <div className="flex flex-col justify-between items-center w-[33%] h-50 border-2 border-gray-200 p-5 rounded-2xl m-2 bg-white">
+            <div className="flex flex-col justify-between items-center w-[33%] h-40 border-2 border-gray-200 p-5 rounded-2xl bg-white">
                 <div className="flex justify-between w-full">
-                    <p className="font-medium text-3xl">Revenue</p>
+                    <p className="font-medium text-2xl">Revenue</p>
                     <span className="border-red-400 text-red-700 border-2 px-3 py-1 rounded-2xl bg-red-300">-8%</span></div>
                 <div className="flex justify-between w-full text-center items-center">
-                    <h5 className="font-bold text-5xl">$3 552.00</h5>
+                    <h5 className="font-bold text-4xl">$3 552.00</h5>
                 <p className="text-gray-500">$3 7200.00 (last month)</p></div> 
             </div>
 
-            <div className="flex flex-col justify-between items-center w-[33%] h-50 border-2 border-gray-200 p-5 rounded-2xl m-2 bg-white">
+            <div className="flex flex-col justify-between items-center w-[33%] h-40 border-2 border-gray-200 p-5 rounded-2xl bg-white">
                 <div className="flex justify-between w-full">
-                    <p className="font-medium text-3xl">Projects</p>
+                    <p className="font-medium text-2xl">Projects</p>
                     <span className="border-green-400 text-green-700 border-2 px-3 py-1 rounded-2xl bg-green-200">+6</span></div>
                 <div className="flex justify-between w-full text-center items-center">
-                    <h5 className="font-bold text-5xl">22</h5>
+                    <h5 className="font-bold text-4xl">22</h5>
                 <p className="text-gray-500">Compare 16 (last month)</p></div> 
             </div>
             
